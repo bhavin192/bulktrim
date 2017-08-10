@@ -1,5 +1,8 @@
 #!/usr/share/env python3
 
+#Copyright: (c) 2017 by Bhavin Gandhi
+#License: GNU GPL v3, see LICENSE for more details 
+
 import os
 from glob import glob
 

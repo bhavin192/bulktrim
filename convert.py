@@ -1,7 +1,7 @@
 #!/usr/share/env python3
 
 import os
-import glob
+from glob import glob
 
 output_choice = "n"
 
@@ -12,7 +12,7 @@ print_line()
 print("Bulk Trim Videos Python Script by Bhavin, Using ffmpeg")
 print_line()
 
-list_of_files = glob.glob("input/*.mp4")
+list_of_files = glob("input/*.mp4")
 #print list_of_files
 if list_of_files == []:
     print("Input Directory is empty!")
